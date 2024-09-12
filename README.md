@@ -108,6 +108,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > This is a function that the takes the lines form the array in database.js and then sorts and pushes them into drovers to hold and use. However in the function it stops at 5.
 
    > I left my original answers in for the sake of learning.So Drovers here is a variable that will take
+   > take the value of what ever the hireDrovers function returns while passing in the cattletoDrive variable in when we move to the next module in drovers.js here it invokes the function taking with it the value of cattleToDrive and assigning it to herdSize which is 50 btw. As the function sorts through an array of drovers that was exported from database.js to drover.js and then pushes 5 objects into drover and returns a new array of 5 objects that was randomly selected by ID. those 5 objects then are equal to thr const drovers in main.js
 
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
 
@@ -136,6 +137,9 @@ Your journey will take you through the wildness of the American Midwest and acro
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
 
    > I wasn't sure why it was there in the first place. The purpose of the function was to pick 5 drovers at random. I also changed the value of numberNeeded to just a flat five. I actually don't remember what was there initially but changing it made it easier to read.
+
+   > I left my original answers in for the sake of learning.So Drovers here is a variable that will take
+   > take the value of what ever the hireDrovers function returns while passing in the cattletoDrive variable in when we move to the next module in drovers.js here it invokes the function taking with it the value of cattleToDrive and assigning it to herdSize which is 50 btw. As the function sorts through an array of drovers that was exported from database.js to drover.js and then pushes 5 objects into drover and returns a new array of 5 objects that was randomly selected by ID. those 5 objects then are equal to thr const drovers in main.js
 
 ## Final Step
 
